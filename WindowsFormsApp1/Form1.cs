@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        private object b1Answer;
+
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +27,9 @@ namespace WindowsFormsApp1
 
             double t = R * C;
             double DeceyConstant = 1 / t; 
+
+            label1.Text = "Decey Constant" + DeceyConstant.ToString("0.00");
+
         }
     }
 }
