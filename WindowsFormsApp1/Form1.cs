@@ -22,13 +22,21 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double R = Convert.ToDouble(textBox1.Text);
-            double C = Convert.ToDouble(textBox2.Text);
+            try
+            {
+                double R = Convert.ToDouble(textBox1.Text);
+                double C = Convert.ToDouble(textBox2.Text);
 
-            double t = R * C;
-            double DeceyConstant = 1 / t; 
+                double t = R * C;
+                double DeceyConstant = 1 / t; 
 
-            label1.Text = "Decey Constant" + DeceyConstant.ToString("0.00");
+                label1.Text = "Decey Constant" + DeceyConstant.ToString("0.00");
+            }
+            catch
+            {
+
+            }
+           
 
         }
     }
