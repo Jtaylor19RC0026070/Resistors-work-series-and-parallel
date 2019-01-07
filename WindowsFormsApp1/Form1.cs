@@ -16,5 +16,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double R = Convert.ToDouble(textBox1.Text);
+            double C = Convert.ToDouble(textBox2.Text);
+
+            double t = R * C;
+            double DeceyConstant = 1 / t; 
+        }
     }
 }
