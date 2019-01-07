@@ -22,22 +22,34 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            double R1, R2, R3, R4, R5;
             try
             {
-                double R1 = Convert.ToDouble(textBox1.Text);
-                double R2 = Convert.ToDouble(textBox2.Text);
-                double R3 = Convert.ToDouble(textBox3.Text);
-
-                double t = R1 + R2 + R3;
-                double DeceyConstant = 1 / t; 
-
-                label5.Text = "Decey Constant = " + DeceyConstant.ToString("0.00");
+                R1 = Convert.ToDouble(textBox1.Text);
             }
             catch
             {
-                label5.Text = "Decey Constant = ";
+                R1 = 0;
             }
-           
+            try
+            {
+                R2 = Convert.ToDouble(textBox2.Text);
+            }
+            catch
+            {
+                R2 = 0;
+            }
+            try
+            {
+                R3 = Convert.ToDouble(textBox3.Text);
+            }
+            catch
+            {
+                R3 = 0;
+            }
+            double Rt = R1 + R2 + R3;
+
+            label5.Text = "Total resistance = " + Rt.ToString("0.00");
 
         }
     }
