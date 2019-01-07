@@ -88,7 +88,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(197, 120);
+            this.button1.Location = new System.Drawing.Point(285, 120);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(602, 66);
+            this.label4.Location = new System.Drawing.Point(602, 62);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(27, 13);
             this.label4.TabIndex = 12;
@@ -139,7 +139,7 @@ namespace WindowsFormsApp1
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(635, 62);
+            this.textBox5.Location = new System.Drawing.Point(635, 59);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 13;

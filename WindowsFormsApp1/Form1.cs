@@ -46,11 +46,30 @@ namespace WindowsFormsApp1
             catch
             {
                 R3 = 0;
+                {
+                    try
+                    {
+                        R4 = Convert.ToDouble(textBox4.Text);
+                    }
+                    catch
+                    {
+                        R4 = 0;
+                    }
+                    try
+                    {
+                        R5 = Convert.ToDouble(textBox5.Text);
+                    }
+                    catch
+                    {
+                        R5 = 0;
+                    }
+                    double Rt = R1 + R2 + R3 + R4 + R5;
+
+                    label5.Text = "Total resistance = " + Rt.ToString("0.00");
+
+                }
             }
-            double Rt = R1 + R2 + R3;
-
-            label5.Text = "Total resistance = " + Rt.ToString("0.00");
-
         }
     }
 }
+        
