@@ -24,17 +24,18 @@ namespace WindowsFormsApp1
         {
             try
             {
-                double R = Convert.ToDouble(textBox1.Text);
-                double C = Convert.ToDouble(textBox2.Text);
+                double R1 = Convert.ToDouble(textBox1.Text);
+                double R2 = Convert.ToDouble(textBox2.Text);
+                double R3 = Convert.ToDouble(textBox3.Text);
 
-                double t = R * C;
+                double t = R1 + R2 + R3;
                 double DeceyConstant = 1 / t; 
 
-                label1.Text = "Decey Constant" + DeceyConstant.ToString("0.00");
+                label5.Text = "Decey Constant = " + DeceyConstant.ToString("0.00");
             }
             catch
             {
-                label1.Text = "Decey Constant";
+                label5.Text = "Decey Constant = ";
             }
            
 
