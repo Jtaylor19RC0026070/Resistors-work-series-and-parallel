@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             }
             catch
             {
-
+                label1.Text = "Decey Constant";
             }
            
 
