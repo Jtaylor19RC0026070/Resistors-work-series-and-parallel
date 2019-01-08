@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             double R1, R2, R3, R4, R5;
+            // 
             try
             {
                 R1 = Convert.ToDouble(textBox1.Text);
@@ -63,10 +64,12 @@ namespace WindowsFormsApp1
             {
                 R5 = 0;
             }
+            //
             double Rt = R1 + R2 + R3 + R4 + R5;
-
+            // This allows my answer to be showed through the total series label to 2 decimal places
             label5.Text = "Total Series = " + Rt.ToString("0.00");
-
+              
+            // This piece of code applies R1,R2,R3,R4,R5 is equal to 0
             if (R1 == 0)
             {
                 R1 = Double.PositiveInfinity;
@@ -87,10 +90,14 @@ namespace WindowsFormsApp1
             {
                 R5 = Double.PositiveInfinity;
             }
+
+            //
             double RR = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5;
             RR = 1 / RR;
 
+            //
             label7.Text = "Total Parallel = " + RR.ToString("0.00");
+           
         }
     }
 }
