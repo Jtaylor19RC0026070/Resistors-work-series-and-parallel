@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             double R1, R2, R3, R4, R5;
-            // 
+            //This code assigns R1,R2,R3,R4,R5 to a text box so the answer can be displayed
             try
             {
                 R1 = Convert.ToDouble(textBox1.Text);
@@ -64,12 +64,12 @@ namespace WindowsFormsApp1
             {
                 R5 = 0;
             }
-            //
+            //This shows the equation R1,R2,R3,R4,R5 added together are RT then we use RT for the next step
             double Rt = R1 + R2 + R3 + R4 + R5;
-            // This allows my answer to be showed through the total series label to 2 decimal places
+            // This allows my answer to be showed through the Total Series label to 2 decimal places
             label5.Text = "Total Series = " + Rt.ToString("0.00");
               
-            // This piece of code applies R1,R2,R3,R4,R5 is equal to 0
+            //This piece of code applies R1,R2,R3,R4,R5 is equal to 0
             if (R1 == 0)
             {
                 R1 = Double.PositiveInfinity;
@@ -91,11 +91,11 @@ namespace WindowsFormsApp1
                 R5 = Double.PositiveInfinity;
             }
 
-            //
+            //This is the equation for parallel resistance, RR = 1 over R1,R2,R3,R4,R5
             double RR = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5;
             RR = 1 / RR;
 
-            //
+            //This allows my answer to be showed through the Total Parallel label to 2 decimal places
             label7.Text = "Total Parallel = " + RR.ToString("0.00");
            
         }
