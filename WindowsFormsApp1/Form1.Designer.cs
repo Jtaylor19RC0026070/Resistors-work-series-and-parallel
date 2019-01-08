@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(202, 184);
+            this.label1.Location = new System.Drawing.Point(87, 180);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 0;
@@ -58,14 +58,14 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(235, 181);
+            this.textBox1.Location = new System.Drawing.Point(120, 177);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(452, 120);
+            this.textBox2.Location = new System.Drawing.Point(266, 123);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(419, 120);
+            this.label3.Location = new System.Drawing.Point(233, 126);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 4;
@@ -83,7 +83,7 @@ namespace WindowsFormsApp1
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(193, 330);
+            this.label5.Location = new System.Drawing.Point(210, 290);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 13);
             this.label5.TabIndex = 6;
@@ -91,7 +91,7 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(452, 354);
+            this.button1.Location = new System.Drawing.Point(423, 307);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -101,7 +101,7 @@ namespace WindowsFormsApp1
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(363, 256);
+            this.textBox3.Location = new System.Drawing.Point(414, 123);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 8;
@@ -109,7 +109,7 @@ namespace WindowsFormsApp1
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(330, 259);
+            this.label6.Location = new System.Drawing.Point(381, 126);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 13);
             this.label6.TabIndex = 9;
@@ -117,7 +117,7 @@ namespace WindowsFormsApp1
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(223, 294);
+            this.textBox4.Location = new System.Drawing.Point(259, 198);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 10;
@@ -125,7 +125,7 @@ namespace WindowsFormsApp1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(193, 298);
+            this.label2.Location = new System.Drawing.Point(226, 201);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 11;
@@ -134,7 +134,7 @@ namespace WindowsFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(487, 294);
+            this.label4.Location = new System.Drawing.Point(365, 201);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(27, 13);
             this.label4.TabIndex = 12;
@@ -142,7 +142,7 @@ namespace WindowsFormsApp1
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(520, 291);
+            this.textBox5.Location = new System.Drawing.Point(398, 198);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 13;
@@ -150,7 +150,7 @@ namespace WindowsFormsApp1
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(193, 354);
+            this.label7.Location = new System.Drawing.Point(210, 317);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(71, 13);
             this.label7.TabIndex = 14;
@@ -158,10 +158,10 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.bridge_resistor;
-            this.pictureBox1.Location = new System.Drawing.Point(104, 85);
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(172, 123);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(504, 320);
+            this.pictureBox1.Size = new System.Drawing.Size(326, 153);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 

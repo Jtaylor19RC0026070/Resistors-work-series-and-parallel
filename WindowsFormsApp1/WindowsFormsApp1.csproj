@@ -82,5 +82,8 @@
   <ItemGroup>
     <None Include="Resources\bridge resistor.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
