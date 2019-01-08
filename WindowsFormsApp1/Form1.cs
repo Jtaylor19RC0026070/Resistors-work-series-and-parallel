@@ -65,8 +65,33 @@ namespace WindowsFormsApp1
             }
             double Rt = R1 + R2 + R3 + R4 + R5;
 
-            label5.Text = "Total resistance = " + Rt.ToString("0.00");
+            label5.Text = "Total Series = " + Rt.ToString("0.00");
+
+            if (R1 == 0)
+            {
+                R1 = Double.PositiveInfinity;
+            }
+            if (R2 == 0)
+            {
+                R2 = Double.PositiveInfinity;
+            }
+            if (R3 == 0)
+            {
+                R3 = Double.PositiveInfinity;
+            }
+            if (R4 == 0)
+            {
+                R4 = Double.PositiveInfinity;
+            }
+            if (R5 == 0)
+            {
+                R5 = Double.PositiveInfinity;
+            }
+            double RR = 1/R1 + 1/R2 + 1/R3 + 1/R4 + 1/R5;
+            RR = 1 / RR;
+
+            label7.Text = "Total Parallel = " + RR.ToString("0.00");
         }
     }
 }
-        
+

@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -82,9 +83,9 @@ namespace WindowsFormsApp1
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(101, 125);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 13);
+            this.label5.Size = new System.Drawing.Size(66, 13);
             this.label5.TabIndex = 6;
-            this.label5.Text = "TotalResistance=";
+            this.label5.Text = "TotalSeries=";
             // 
             // button1
             // 
@@ -144,11 +145,21 @@ namespace WindowsFormsApp1
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 13;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(101, 161);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(71, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "TotalParellel=";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -187,6 +198,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label7;
     }
 }
 
