@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 180);
+            this.label1.Location = new System.Drawing.Point(210, 163);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 0;
@@ -58,22 +58,22 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(120, 177);
+            this.textBox1.Location = new System.Drawing.Point(232, 160);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(50, 20);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(266, 123);
+            this.textBox2.Location = new System.Drawing.Point(312, 160);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(45, 20);
             this.textBox2.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(233, 126);
+            this.label3.Location = new System.Drawing.Point(288, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 4;
@@ -101,15 +101,15 @@ namespace WindowsFormsApp1
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(414, 123);
+            this.textBox3.Location = new System.Drawing.Point(387, 160);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(50, 20);
             this.textBox3.TabIndex = 8;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(381, 126);
+            this.label6.Location = new System.Drawing.Point(363, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 13);
             this.label6.TabIndex = 9;
@@ -117,15 +117,15 @@ namespace WindowsFormsApp1
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(259, 198);
+            this.textBox4.Location = new System.Drawing.Point(456, 160);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(51, 20);
             this.textBox4.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(226, 201);
+            this.label2.Location = new System.Drawing.Point(432, 163);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 11;
@@ -134,7 +134,7 @@ namespace WindowsFormsApp1
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(365, 201);
+            this.label4.Location = new System.Drawing.Point(513, 163);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(27, 13);
             this.label4.TabIndex = 12;
@@ -142,9 +142,9 @@ namespace WindowsFormsApp1
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(398, 198);
+            this.textBox5.Location = new System.Drawing.Point(533, 160);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.Size = new System.Drawing.Size(45, 20);
             this.textBox5.TabIndex = 13;
             // 
             // label7
@@ -158,10 +158,10 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(172, 123);
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._4xYyj;
+            this.pictureBox1.Location = new System.Drawing.Point(159, 99);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(326, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(419, 144);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
